@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .padding {
+    @apply xl:px-20 lg:px-16 md:px-10 px-5;
+  }
+  .outline {
+    @apply bg-transparent text-primary border-[1px] border-primary rounded-md;
+  }
+  .primary-btn {
+    @apply bg-primary px-4 py-2 text-white  rounded-md;
+  }
+  .border-padding {
+    @apply px-4 py-2;
+  }
+  .section-heading {
+    @apply mt-[150px] text-4xl font-bold;
+  }
+  .card-border {
+    @apply flex flex-col gap-3 border-[3px] border-border rounded-2xl hover:border-primary transition-all;
+  }
+}
+.hero-bg-img {
+  background-position: -5% 60%;
+}

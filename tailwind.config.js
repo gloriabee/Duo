@@ -6,6 +6,7 @@ export default {
       colors: {
         primary: "#7A71EB",
         border: "#EEEEEE",
+        card: "#222831",
       },
     },
   },

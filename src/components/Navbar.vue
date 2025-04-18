@@ -1,8 +1,8 @@
 <script setup>
-import navLinks from "../constants";
+import { navLinks } from "../constants";
 </script>
 <template>
-  <nav class="lg:px-12 md:px-10 py-4 border-border border-b-2">
+  <nav class="padding py-6 border-border border-b-2">
     <div class="flex justify-between items-center">
       <!-- Logo -->
       <a href="#">
@@ -20,11 +20,7 @@ import navLinks from "../constants";
             <a :href="nav.id">{{ nav.title }}</a>
           </li>
         </ul>
-        <button
-          class="bg-primary px-4 py-2 text-white font-semi-bold rounded-md"
-        >
-          Buy Template
-        </button>
+        <button class="primary-btn font-semi-bold">Buy Template</button>
       </div>
 
       <!--toggle button-->
