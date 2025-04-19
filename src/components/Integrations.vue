@@ -12,7 +12,9 @@ import { integrations } from "../constants";
     </p>
     <button class="mt-5 primary-btn">Request a Demo</button>
 
-    <div class="mt-[60px] mb-[60px] grid grid-cols-1 md:grid-cols-3 gap-5">
+    <div
+      class="mt-[60px] mb-[60px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+    >
       <div
         v-for="integration in integrations"
         :key="integration.title"
@@ -20,7 +22,7 @@ import { integrations } from "../constants";
       >
         <div class="bg-border rounded-t-xl p-8">
           <img :src="integration.img" alt="" />
-          <p>{{ integration.description }}</p>
+          <p class="mt-3">{{ integration.description }}</p>
         </div>
         <div class="p-8">
           <button class="bg-white text-primary border-padding rounded-md">

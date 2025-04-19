@@ -16,10 +16,10 @@ import { works } from "../constants";
       <div v-for="work in works" :key="work.id" class="md:w-full w-[70%]">
         <img :src="work.img" alt="" class="w-full h-[200px] mb-8" />
 
-        <span class="bg-black p-2 text-white rounded-md"
+        <span class="bg-black px-2 py-1 text-white rounded-md"
           >Step {{ work.id }}</span
         >
-        <h1 class="mt-4 text-primary font-bold text-2xl mb-4">
+        <h1 class="text-primary font-bold text-3xl mt-2 mb-4 text-left">
           {{ work.title }}
         </h1>
         <p>{{ work.description }}</p>
