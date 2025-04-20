@@ -105,3 +105,43 @@ export const objectives = [
       "Duo template allows you to launch your website fast. Whether you're building a landing page, a SaaS website, or a product MVP.",
   },
 ];
+
+export const pricing = [
+  {
+    img: "https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665af86f80a2c9f285836fc8_personal-plan-icon_1.svg",
+    title: "Personal",
+    description:
+      "Our Personal Plan offers essential features at an affordable price, without breaking the bank.",
+    price: "35.00",
+    features: [
+      "Basic Template Customization",
+      "Limited CMS Collections",
+      "Standard Hosting",
+    ],
+  },
+  {
+    img: "https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665af904a98ef7d8d2a5ad7a_commercial-plan-icon_1.svg",
+    title: "Commercial",
+    description:
+      "Designed for small to medium-sized businesses, our Commercial Plan provides advanced tool.",
+    price: "55.00",
+    features: [
+      "Full Template Customization",
+      "Expanded CMS Collections",
+      "Priority Support",
+    ],
+  },
+
+  {
+    img: "https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665affecb78fada17882908a_extended-plan-icon.svg",
+    title: "Personal",
+    description:
+      "Our Personal Plan offers essential features at an affordable price, without breaking the bank.",
+    price: "35.00",
+    features: [
+      "Basic Template Customization",
+      "Limited CMS Collections",
+      "Standard Hosting",
+    ],
+  },
+];

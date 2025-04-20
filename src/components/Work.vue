@@ -3,7 +3,7 @@ import { works } from "../constants";
 </script>
 
 <template>
-  <div class="padding">
+  <div class="padding mt-[150px]">
     <h1 class="section-heading">How it works</h1>
     <p class="xl:w-[40%] lg:w-[60%] md:w-[70%] mt-5">
       Learn how we pinpoint issues in your product and get you to the finish

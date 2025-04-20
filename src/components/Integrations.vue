@@ -3,7 +3,7 @@ import { integrations } from "../constants";
 </script>
 
 <template>
-  <div class="padding mt-[120px]">
+  <div class="padding mt-[150px]">
     <h1 class="section-heading">Integrations</h1>
     <p class="mt-5">
       The integrations section showcases how our software seamlessly connects

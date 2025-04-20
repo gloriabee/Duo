@@ -4,7 +4,7 @@ import { features } from "../constants";
 </script>
 
 <template>
-  <div class="padding">
+  <div class="padding mt-[150px]">
     <h1 class="section-heading">Including Custom-made Illustrations</h1>
     <p class="xl:w-[40%] lg:w-[60%] md:w-[70%] mt-5">
       Our unique illustrations will allow you to explain concepts relevant to

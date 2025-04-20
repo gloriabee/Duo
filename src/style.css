@@ -16,12 +16,19 @@
     @apply px-4 py-2;
   }
   .section-heading {
-    @apply mt-[150px] text-4xl font-bold;
+    @apply text-4xl font-bold;
   }
   .card-border {
-    @apply flex flex-col gap-3 border-[3px] border-border rounded-2xl hover:border-primary transition-all;
+    @apply flex flex-col gap-3 border-[3px] border-white rounded-2xl hover:border-primary transition-all;
+  }
+  .star {
+    @apply text-primary font-bold text-2xl;
   }
 }
 .hero-bg-img {
   background-position: -5% 60%;
+}
+
+body {
+  background-color: #eeeeee;
 }
